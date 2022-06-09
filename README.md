@@ -30,5 +30,4 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/MarMiMu/advice-api-app)
-- Live Site URL: [Add live site URL here](https://marmimu.github.io/advice-api-app/)
+- Live Site URL: [My Advice Api App](https://marmimu.github.io/advice-api-app/)

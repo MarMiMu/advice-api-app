@@ -23,7 +23,7 @@ Users should be able to:
 ### Screenshots
 
 Desktop Version:
-![](./images/screenshot_desktop.png.jpg)
+![](./images/screenshot_desktop.png)
 
 Mobile Version:
 ![](./images/screenshot_mobile.png)

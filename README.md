@@ -24,7 +24,7 @@ Users should be able to:
 
 - Desktop Version:
 ![](./images/screenshot_desktop.png)
-- Mobile Version: 
+- Mobile Version: \ 
 ![](./images/screenshot_mobile.png)
 
 

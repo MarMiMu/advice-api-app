@@ -19,4 +19,39 @@ $(document).ready(function () {
     button.addEventListener('click', () => {
         getAdvice();
     });
+    const body = document.querySelector("body")
+
+    const theme1 = document.querySelector("#clr1")
+    const theme3 = document.querySelector("#clr3")
+    const theme2 = document.querySelector("#clr2")
+
+    theme3.addEventListener('click', () => {
+        console.log("test")
+        body.classList.remove("test1")
+        body.classList.remove("test2")
+        body.classList.add("test3")
+        theme1.classList.remove("selected")
+        theme2.classList.remove("selected")
+        theme3.classList.add("selected")
+    })
+
+    theme1.addEventListener('click', () => {
+        console.log("test")
+        body.classList.remove("test2")
+        body.classList.remove("test3")
+        body.classList.add("test1")
+        theme2.classList.remove("selected")
+        theme3.classList.remove("selected")
+        theme1.classList.add("selected")
+    })
+
+    theme2.addEventListener('click', () => {
+        console.log("test")
+        body.classList.remove("test1")
+        body.classList.remove("test3")
+        body.classList.add("test2")
+        theme1.classList.remove("selected")
+        theme3.classList.remove("selected")
+        theme2.classList.add("selected")
+    })
 }); 

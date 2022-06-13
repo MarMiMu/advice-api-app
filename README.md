@@ -10,7 +10,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Links](#links)
 
 ## Overview
-This app provides users with a piece of advice generated from the [Advice Slip API](https://api.adviceslip.com/).
+This app provides users with a piece of advice generated from the [Advice Slip API](https://api.adviceslip.com/). Aside from the challenge (as stated below), additional components were added to change colour theme to demonstrate usage of custom CSS properties. 
 
 ### The challenge
 

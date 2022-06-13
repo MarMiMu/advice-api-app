@@ -20,6 +20,15 @@ body {
 
 .color_select {
     display: flex;
+    position: absolute;
+    bottom: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.color_select h2 {
+    margin: 0;
+    margin-right: 10px;
 }
 
 .clr {
@@ -54,7 +63,7 @@ body {
 .advice_container {
     display: grid;
     place-items: center;
-    height: 40%;
+    height: 45%;
     width: 100%;
     background-color: hsl(217, 19%, 24%);
     border-radius: 15px;
@@ -87,7 +96,7 @@ body {
     background-image: url("images/pattern-divider-desktop.svg");
     width: 444px;
     height: 16px;
-    margin-top: 200px;
+    margin-top: 225px;
     position: absolute;
 }
 
@@ -99,7 +108,7 @@ body {
     display: grid;
     place-items: center;
     position: absolute;
-    margin-top: 350px;
+    margin-top: 375px;
 }
 
 .button:hover {
@@ -119,7 +128,7 @@ body {
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(193, 38%, 86%);
 }
 
 @media (max-width: 380px) {
@@ -130,7 +139,7 @@ body {
 
     .advice_container {
         height: 350px;
-        margin-top: 20%;
+        margin-top: 125px;
     }
 
     .advice_card {
@@ -147,6 +156,29 @@ body {
         width: 295px;
         height: 16px;
         position: absolute;
+    }
+
+    .button {
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        background-color: var(--clr-main, hsl(150, 100%, 66%));
+        display: grid;
+        place-items: center;
+        position: absolute;
+        margin-top: 350px;
+    }
+
+    .color_select {
+        display: flex;
+        position: absolute;
+        bottom: 85%;
+    }
+
+    .clr {
+        padding: 15px;
+        border-radius: 15px;
+        margin: 0 10px;
     }
 }
 

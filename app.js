@@ -2,6 +2,7 @@ $(document).ready(function () {
     function getAdvice() {
         var URL = "https://api.adviceslip.com/advice";
         $.getJSON(URL, function (data) {
+            console.log(data);
             parseData(data.slip);
         });
     }
@@ -18,6 +19,7 @@ $(document).ready(function () {
     const button = document.querySelector(".button")
     button.addEventListener('click', () => {
         getAdvice();
+        console.log("button pressed");
     });
     const body = document.querySelector("body")
 

@@ -1,8 +1,7 @@
 $(document).ready(function () {
     function getAdvice() {
         var URL = "https://api.adviceslip.com/advice";
-        $.getJSON(URL, function (data) {
-            console.log(data);
+        $.getJSON(URL, {_: new Date().getTime()}, function (data) {
             parseData(data.slip);
         });
     }
@@ -19,7 +18,6 @@ $(document).ready(function () {
     const button = document.querySelector(".button")
     button.addEventListener('click', () => {
         getAdvice();
-        console.log("button pressed");
     });
     const body = document.querySelector("body")
 
@@ -28,7 +26,6 @@ $(document).ready(function () {
     const theme2 = document.querySelector("#clr2")
 
     theme3.addEventListener('click', () => {
-        console.log("test")
         body.classList.remove("test1")
         body.classList.remove("test2")
         body.classList.add("test3")
@@ -38,7 +35,6 @@ $(document).ready(function () {
     })
 
     theme1.addEventListener('click', () => {
-        console.log("test")
         body.classList.remove("test2")
         body.classList.remove("test3")
         body.classList.add("test1")
@@ -48,7 +44,6 @@ $(document).ready(function () {
     })
 
     theme2.addEventListener('click', () => {
-        console.log("test")
         body.classList.remove("test1")
         body.classList.remove("test3")
         body.classList.add("test2")

@@ -1,6 +1,6 @@
 $(document).ready(function () {
     function getAdvice() {
-        var URL = "	https://api.adviceslip.com/advice";
+        var URL = "https://api.adviceslip.com/advice";
         $.getJSON(URL, function (data) {
             parseData(data.slip);
         });
